@@ -1,0 +1,24 @@
+@page :first {
+  /* margin: 2in; */
+}
+
+@page :right {
+  /* margin-right: 0in; */
+}
+
+@page :left {
+  /* margin-left: 0in; */
+}
+
+@page {
+  /* margin: 1in; */
+  size: 3in 8in;
+}
+
+body {
+  text-align: justify;
+}
+
+h1 {
+  color: green;
+}

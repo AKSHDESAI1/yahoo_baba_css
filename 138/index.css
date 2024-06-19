@@ -1,0 +1,26 @@
+table,
+tr,
+th,
+td {
+  border: 1px solid;
+  font-size: 25px;
+  border-radius: 10px;
+
+  padding: 10px;
+
+  text-align: center;
+}
+
+td {
+  margin: 5px;
+  background: linear-gradient(45deg, #000, grey);
+  color: white;
+}
+
+h2 {
+  break-before: page;
+}
+
+table {
+  break-inside: avoid;
+}

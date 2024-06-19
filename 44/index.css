@@ -1,0 +1,41 @@
+body {
+  height: 1000vh;
+  background: linear-gradient(
+    135deg,
+    cyan,
+    blue,
+    pink,
+    purple,
+    cyan,
+    blue,
+    pink,
+    purple
+  );
+  mix-blend-mode: difference;
+}
+
+div {
+  position: fixed;
+  border: 2px solid;
+  width: 200px;
+  height: 200px;
+  /* mix-blend-mode: difference; */
+}
+
+#box-1 {
+  top: 50px;
+  left: 50px;
+  background: red;
+}
+
+#box-2 {
+  top: 100px;
+  left: 100px;
+  background: rebeccapurple;
+}
+
+#box-3 {
+  top: 150px;
+  left: 150px;
+  background: green;
+}

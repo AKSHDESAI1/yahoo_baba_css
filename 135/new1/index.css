@@ -1,0 +1,24 @@
+/* form:has(input[type="checkbox"]:checked )  {
+  background: pink;
+  accent-color: green;
+} */
+
+ /* label:has(+ input[type="checkbox"]:checked) {
+  background: pink;
+} */
+
+ /* label:has(+ input:focus) {
+    background-color: red;
+    color: white;
+} */
+
+@supports (selector(:has(p))) {
+  label:has(+ input[type="checkbox"]:checked) {
+    background: pink;
+  }
+
+  label:has(+ input:focus) {
+    background-color: red;
+    color: white;
+  }
+}

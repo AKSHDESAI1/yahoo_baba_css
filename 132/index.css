@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#box {
+  /* width: 300px;
+  height: 200px; */
+  background: lightblue;
+}
+
+#box:fullscreen {
+  background: url("https://imgs.search.brave.com/Uee0Yq8X4kyjvJZLXXxzp-cVCtU5gx73bLozgZQM0ZQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/OTE5ODE4MTMyMDQt/ZjVhNDMzNzAwYjdi/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4bGVI/QnNiM0psTFdabFpX/UjhNVGw4Zkh4bGJu/d3dmSHg4Zkh3PQ.jpeg");
+  font-size: 50px;
+}
+
+#box:fullscreen p {
+  color: red;
+}
+
+#box:not(:fullscreen) p {
+  color: orange;
+}

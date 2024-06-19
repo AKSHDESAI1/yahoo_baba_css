@@ -1,0 +1,32 @@
+/* li:first-child {
+  color: aqua;
+}
+
+li:last-child {
+  color: blue;
+}
+
+div p:first-child {
+  color: red;
+}
+
+div p:last-child {
+  color: pink;
+} */
+
+li:nth-child(2n) {
+  color: brown;
+}
+
+/* p:nth-child(2) {
+  color: wheat;
+} */
+
+/* li:nth-last-child(2n) {
+  border: 2px solid pink;
+} */
+
+p:nth-of-type(2) {
+  border: 2px solid purple;
+  /* font-size: 30px; */
+}

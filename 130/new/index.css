@@ -1,0 +1,23 @@
+.box {
+  width: 30%;
+  border: 1px solid;
+  float: left;
+}
+
+.box img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+@media (max-width: 800px) {
+  .box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .box {
+    width: 90%;
+  }
+}

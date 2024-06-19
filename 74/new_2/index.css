@@ -1,0 +1,10 @@
+ol {
+  counter-reset: aksh;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: aksh;
+  content: counters(aksh, ".") " ";
+  background: green;
+}

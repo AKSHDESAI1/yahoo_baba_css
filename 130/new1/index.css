@@ -1,0 +1,18 @@
+#parent {
+  width: 400px;
+  border: 2px solid red;
+
+  overflow: auto;
+}
+
+#parent iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  #parent {
+    width: 100%;
+  }
+}

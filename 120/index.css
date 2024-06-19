@@ -1,0 +1,87 @@
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#scrolldiv {
+  width: 900px;
+  border: 1px solid;
+  height: 500px;
+
+  overflow-y: scroll;
+  margin: auto;
+
+  scroll-behavior: smooth;
+
+  scrollbar-color: cyan purple;
+  scrollbar-width: thin;
+}
+
+menu {
+  background: cadetblue;
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* width: 50vw; */
+  margin: auto;
+}
+
+menu ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* width: 50%; */
+  margin: auto;
+}
+
+menu ul li {
+  list-style-type: none;
+}
+
+menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.section {
+  height: 100vh;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+#home {
+  background: crimson;
+}
+
+#about {
+  background: lawngreen;
+}
+
+#profile {
+  background: palegreen;
+}
+
+#contact {
+  background: lightpink;
+}
+
+div:target {
+  animation: aksh 500ms linear;
+}
+
+.section::before {
+  content: "Heading";
+  color: black;
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px auto;
+}

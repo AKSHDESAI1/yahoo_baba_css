@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box {
+  border: 2px solid red;
+  width: 32%;
+  box-sizing: border-box;
+
+  padding: 10px;
+  margin-right: 2%;
+  margin-bottom: 13px;
+  float: left;
+}
+
+.box img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  background-color: pink;
+  transition: all 2s;
+  object-position: 100px 30px;
+  /* position in the image */
+  /* animation: aksh 3s linear alternate infinite; */
+}
+
+img:hover {
+  /* object-position: 100% bottom; */
+}
+
+@keyframes aksh {
+  100% {
+    object-position: right bottom;
+  }
+}
+
+.last {
+  margin-right: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media screen and (max-width: 950px) {
+  .box {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    width: 100%;
+  }
+}

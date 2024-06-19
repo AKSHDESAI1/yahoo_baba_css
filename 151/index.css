@@ -1,0 +1,28 @@
+a {
+  color: red;
+}
+
+.first {
+  /* color: orange; */
+}
+
+h1 a {
+  /* color: lightblue; */
+}
+
+a {
+  color: green;
+  border: 100px solid pink;
+}
+
+h1 a#second {
+  border: 5px solid brown;
+}
+
+#second {
+  border: 1px solid red;
+}
+
+a#second {
+  border: 1px solid green;
+}

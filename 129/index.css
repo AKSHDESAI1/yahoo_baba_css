@@ -1,0 +1,19 @@
+:root {
+  --base-color: orange;
+}
+
+body {
+  background: var(--base-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --base-color: pink;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base-color: lightgreen;
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  width: 800px;
+  height: max-content;
+}
+
+#content {
+  height: 400px;
+}
+
+#left {
+  overflow-x: hidden;
+}

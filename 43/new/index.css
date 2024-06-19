@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, cyan, purple, blue, pink);
+  min-height: 100vh;
+}
+
+.item {
+  width: 95vw;
+  height: 150vh;
+}
+
+.minItem {
+  width: max-content;
+  height: 200px;
+  background: linear-gradient(135deg, cyan, purple, blue, pink);
+  position: sticky;
+  top: 30%;
+  left: 25%;
+  color: white;
+  font-size: 200px;
+}
+
+#item-1 {
+  mix-blend-mode: difference;
+}
+
+#item-2 {
+  mix-blend-mode: screen;
+}
+
+#item-3 {
+  mix-blend-mode: luminosity;
+}
+
+#item-4 {
+  mix-blend-mode: color;
+}
+
+#item-5 {
+  mix-blend-mode: exclusion;
+}

@@ -1,0 +1,43 @@
+div:empty {
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+  background: purple;
+}
+
+div:not(.e) {
+  border: 2px solid;
+}
+
+p:lang(en) {
+  /* background: red; */
+}
+
+p[lang="es"] {
+  background: green;
+}
+
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+p:target {
+  background-color: brown;
+  color: white;
+  /* margin-bottom: 500px; */
+}

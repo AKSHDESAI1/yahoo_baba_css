@@ -1,0 +1,24 @@
+@import url("/142/index.css");
+
+#box {
+  > h2 {
+    color: tomato;
+  }
+
+  & .demo {
+    color: pink;
+  }
+
+  + h2 {
+    background: black;
+  }
+
+  .foo {
+    color: tomato;
+  }
+
+  ~ .foo.bar {
+    color: green;
+    background: orangered;
+  }
+}

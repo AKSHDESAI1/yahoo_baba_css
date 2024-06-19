@@ -1,0 +1,33 @@
+body {
+  background: white;
+  color: arial;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background: pink;
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 10px;
+    background: lightblue;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 10px;
+    background: orange;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 110px;
+    background: red;
+  }
+}

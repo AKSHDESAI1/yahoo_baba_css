@@ -1,0 +1,4 @@
+p:nth-child(2n) {
+    border: 2px solid purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

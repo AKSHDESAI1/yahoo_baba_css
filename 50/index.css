@@ -1,0 +1,22 @@
+:root {
+  --h--1: red; /* Global Scope */
+  --h2: blue;
+  --head-font: arial;
+}
+
+h1 {
+  color: var(--h--1);
+}
+
+h2 {
+  color: var(--h--1);
+}
+
+#a {
+  --aksh: 55px;
+}
+
+button {
+  /* color: var(--aksh); */
+  font-size: var(--aksh);
+}

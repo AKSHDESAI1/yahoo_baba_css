@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.base {
+  width: 350px;
+  height: 250px;
+  background: grey;
+  font-size: 18px;
+  text-align: center;
+  margin: 100px 0 0 100px;
+  perspective: 100px;
+  perspective-origin: 10% 50%;
+  transition: all 1s linear;
+}
+
+#box {
+  width: 350px;
+  height: 250px;
+  background: tomato;
+  transform: rotateX(30deg);
+  /* transform-origin: left; */
+}
+
+#buttons {
+  margin-top: 30px;
+}

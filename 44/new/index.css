@@ -1,0 +1,25 @@
+div {
+  position: fixed;
+  border: 2px solid;
+  width: 200px;
+  height: 200px;
+}
+
+#box-1 {
+  top: 50px;
+  left: 50px;
+  background: red;
+}
+
+#box-2 {
+  top: 100px;
+  left: 100px;
+  background: rebeccapurple;
+  z-index: -1;
+}
+
+#box-3 {
+  top: 150px;
+  left: 150px;
+  background: green;
+}

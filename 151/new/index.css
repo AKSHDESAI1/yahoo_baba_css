@@ -1,0 +1,36 @@
+@layer one, three, two;
+
+/* @layer {
+    p {
+        color: black;
+    }
+} */
+
+@layer three {
+  #second {
+    color: green !important;
+    font-weight: bold;
+  }
+}
+
+@layer two {
+  .first {
+    color: pink;
+  }
+}
+
+@layer one {
+  p {
+    color: red;
+  }
+}
+
+p {
+  color: brown;
+}
+
+/* @layer two1 {
+  .first {
+    color: yellow;
+  }
+} */

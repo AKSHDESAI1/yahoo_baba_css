@@ -1,0 +1,42 @@
+#box {
+  width: 150px;
+  height: 150px;
+  background: pink;
+
+  /* transition-property: height; */
+  /* transition-property: width, height, background;
+  transition-duration: 5s; */
+
+  /* transition: width,height,background 2s,4s,2s; */
+  /* transition: all 4s; */
+
+  /* transition-timing-function: steps(5, start); */
+  /* transition-timing-function: step-end; */
+
+  /* transition-delay: 3s; */
+
+  /* Shorthand  */
+  transition: all 2s steps(5, end);
+  transition: all 2s linear;
+}
+
+/* #box:hover { */
+#box:active {
+  width: 300px;
+  height: 300px;
+  background: orange;
+}
+
+input {
+  width: 150px;
+}
+
+input:focus {
+  width: 300px;
+}
+
+@media only screen and (max-width: 300px) {
+  #box {
+    width: 300px;
+  }
+}

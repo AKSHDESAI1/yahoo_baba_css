@@ -1,0 +1,35 @@
+html {
+  /* font-size: 100px; */
+  /* margin: 0; */
+}
+
+body {
+  font-size: 13px;
+  margin: 0;
+}
+
+#box1 {
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  /* height: 400px; */
+
+  /* font-size: 16px; */
+}
+
+#box {
+  /* width: 160px; */
+
+  /* width: 50vw; */
+  width: 100vmin;
+  height: 50vh;
+  background: red;
+  color: black;
+
+  /* font-size: 1rem; */
+  font-size: 5vh;
+}
+
+#box::first-letter {
+  font-size: 55px;
+  color: pink;
+}

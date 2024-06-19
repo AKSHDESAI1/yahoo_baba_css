@@ -1,0 +1,6 @@
+p::after {
+  content: "class = (" attr(class) ")";
+  color: red;
+  background: grey;
+  font-size: 30px;
+}

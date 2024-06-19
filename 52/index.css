@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(45deg, black, red);
+  color: white;
+  height: 100vh;
+  font-size: 20px;
+}
+
+img {
+  /* clip-path: circle(30% at bottom center); */
+  /* clip-path: ellipse(40% 40% at bottom left); */
+
+  /* clip-path: inset(0px 0px 0px 10px) */
+  /* box-shadow: 0px 0px 100px 0px cyan; */
+}

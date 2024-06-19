@@ -1,0 +1,9 @@
+#box {
+  width: 200px;
+  height: 200px;
+  background: pink;
+
+  position: sticky;
+  left: 100px;
+  top: 10px;
+}

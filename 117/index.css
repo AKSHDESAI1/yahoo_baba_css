@@ -1,0 +1,33 @@
+/* @supports (text-underline-offset: 10px) {
+  body {
+    background: orange;
+  }
+} */
+
+/* @supports ((filter: blur(2px)) or (-webkit-filter: blur(2px))) {
+  body {
+    background: orange;
+  }
+} */
+
+/* @supports ((filter: blur(2px)) and (-webkit-filter: blur(2px))) {
+  body {
+    background: red;
+  }
+} */
+
+@supports ((display: grid) and (not (display: inline-grid))) {
+  body {
+    background: red;
+  }
+}
+
+:root {
+  --test: green;
+}
+
+@supports (--test: "red") {
+  body {
+    background: var(--test);
+  }
+}

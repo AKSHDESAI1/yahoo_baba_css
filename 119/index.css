@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: "☝";
+  line-height: 35px;
+}
+
+li::marker {
+  text-align: center !important;
+  color: green;
+  font-size: 30px;
+}

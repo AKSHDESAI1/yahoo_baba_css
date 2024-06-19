@@ -1,0 +1,42 @@
+#container {
+  background: url("https://imgs.search.brave.com/ZSk5POamZ1PN0O5XLOxgf7WnH0-EFbjZ5W0OUSYr-jk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZmxvd2VyLXBp/Y3R1cmVzLXVucHhi/djFxOWt4eXFyMWQu/anBn");
+
+  background-repeat: no-repeat;
+
+  width: 500px;
+
+  height: 300px;
+
+  border: 2px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner {
+  width: 300px;
+  height: 250px;
+
+  text-align: center;
+  color: black;
+
+  /* background: white; */
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  /* backdrop-filter: blur(5px); */
+
+  /* background: rgba(255, 255, 255, 0.3); */
+  /* transition: all 5s; */
+
+  backdrop-filter: blur(5px) sepia(100%);
+  /* backdrop-filter: hue-rotate(0deg); */
+  /* backdrop-filter: sepia(100%); */
+  /* backdrop-filter: saturate(5000%); */
+  /* backdrop-filter: drop-shadow(5px 5px red); */
+}
+
+#inner:hover {
+  /* background: rgba(255, 255, 255, 0.3); */
+  backdrop-filter: hue-rotate(360deg);
+}

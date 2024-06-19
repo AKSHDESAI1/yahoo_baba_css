@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CSS FontAwesome Tutorial | Yahoo Baba CSS </title>
+
+  <link rel="stylesheet" href="/77/index.css">
+
+
+</head>
+
+<body>
+
+
+  <!-- 
+    Here;
+    fa-solid is a Style &&&
+    fa-user is a icon.
+
+    Total Style is 
+    1. solid
+    2. regular
+    3. light
+    4. thin
+    5. duotone
+    
+ -->
+
+
+  <i class="fa-solid fa-beat fa-user fa-2xl" style="color: tomato;"></i>
+
+  <span style="color: green;">
+    <i class="fa-regular fa-fade fa-user fa-5x"></i>
+  </span>
+
+  <i class="fa-solid fa-spinner fa-beat fa-10x fa-pulse" style="color: cyan;"></i>
+
+  <i class="fa-solid fa-car  fa-bounce fa-5x" style="color: blueviolet;"></i>
+
+  <i class="fa-regular fa-face-smile fa-5x"></i>
+  <i class="fa-regular fa-face-angry fa-5x"></i>
+
+</body>
+
+<script>
+  let heart = document.querySelector(".fa-face-smile");
+
+  heart.addEventListener("mouseover", () => {
+    heart.classList.replace("fa-regular", "fa-solid");
+    heart.classList.add("fa-beat");
+    heart.style.color = 'green';
+  })
+
+
+  heart.addEventListener("mouseout", () => {
+    heart.classList.remove("fa-beat");
+    heart.classList.replace("fa-solid", "fa-regular");
+    heart.style.color = 'green';
+  })
+
+
+  let heart1 = document.querySelector(".fa-face-angry");
+
+  heart1.addEventListener("mouseover", () => {
+    heart1.classList.replace("fa-regular", "fa-solid");
+    heart1.classList.replace("fa-5x", "fa-10x");
+    heart1.classList.add("fa-beat");
+    heart1.style.color = 'red';
+  })
+  
+  
+  heart1.addEventListener("mouseout", () => {
+    heart1.classList.remove("fa-beat");
+    heart1.classList.replace("fa-10x", "fa-5x");
+    heart1.classList.replace("fa-solid", "fa-regular");
+    heart1.style.color = 'black';
+  })
+</script>
+
+<!-- FontAwesome Script Kit  -->
+<!-- <script src="https://kit.fontawesome.com/01e65c4b2d.js" crossorigin="anonymous"></script> -->
+
+</html>

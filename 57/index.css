@@ -1,0 +1,156 @@
+:root {
+  --link: url("https://imgs.search.brave.com/VPRflMMqCizPVUgjdIXYUDpkNgHLTBBmZ8BfTG2_bxo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9ocmx0eDEy/cGw4aHEvNUNVWkdW/NXJJYnplOGg4STBT/MlhwMC8zN2U1ZTBl/ZjQ5MDM0Y2Q2NDY5/NmE3Zjk3MmRjNWJh/Mi9mbG93ZXJzLWlt/YWdlcy5qcGc_Zml0/PWZpbGwmdz02MDAm/aD00MDA");
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(45deg, purple, blue);
+  color: aliceblue;
+  mix-blend-mode: screen;
+  background: linear-gradient(45deg, blue, purple, cyan);
+  /* transform: perspective(800px) rotateX(180deg); */
+  /* animation: rudra 2s linear infinite; */
+  height: 100vh;
+}
+
+/* @keyframes rudra {
+  100% {
+    transform: perspective(800px) rotateZ(540deg);
+  }
+} */
+#base {
+  width: 350px;
+  /* height: 90vh; */
+  background: radial-gradient(circle, blue, cyan);
+
+  font-size: 40px;
+  text-align: center;
+  /* margin: 100px 0 0 100px; */
+  display: flex;
+  margin: auto;
+  /* display: none; */
+  border-radius: 50px;
+
+  background-blend-mode: color-burn;
+  transform: perspective(800px) rotateY(0deg) translateY(800px);
+  transform-style: preserve-3d;
+  animation: base 15s linear;
+}
+
+@keyframes base {
+  100% {
+    transform: perspective(800px) rotateY(0deg) translateY(-500px);
+  }
+}
+
+#box {
+  position: absolute;
+  top: 1%;
+  width: 350px;
+  height: 250px;
+  background: transparent;
+  margin: auto;
+  /* transform: perspective(800px) rotateZ(40deg); */
+  /* transition: all 1s linear; */
+  /* animation: aksh 0.2s linear infinite; */
+  background-image: linear-gradient(45deg, orange, blue, cyan, pink);
+  mix-blend-mode: screen;
+  border-radius: 50px;
+  background-size: cover;
+  /* mix-blend-mode: darken; */
+  /* transform-origin: left top; */
+  /* transform: perspective(800px) rotateZ(60deg) ; */
+  /* transform: perspective(800px) rotateY(40deg) translate3d(10px, 20px, 100px); */
+  /* transform: perspective(800px) scaleZ(4) rotateX(40deg) ; */
+  transform: perspective(800px) rotateY(90deg);
+  /* transform: none; */
+  /* transform: matrix3d(1, 2, 0.5, 1, 1, 2, 0.5, 1, 1, 2, 0.5, 1, 1, 2, 0.5, 1); */
+}
+
+@keyframes aksh {
+  100% {
+    transform: perspective(800px) rotateY(1000deg);
+  }
+}
+
+#base1 {
+  position: absolute;
+  top: 1%;
+  /* width: 350px; */
+  /* height: 90vh; */
+  background: radial-gradient(circle, blue, cyan);
+
+  font-size: 40px;
+  text-align: center;
+  margin: 100px 0 0 100px;
+  display: flex;
+  margin: auto;
+  /* display: none; */
+  border-radius: 50px;
+
+  background-blend-mode: color-burn;
+  transform: perspective(800px) rotateY(0deg) translateX(-500px);
+  animation: base1 15s linear;
+  transform-style: preserve-3d;
+}
+
+@keyframes base1 {
+  100% {
+    transform: perspective(800px) rotateY(0deg) translateX(1500px);
+  }
+}
+
+#box1 {
+  width: 350px;
+  height: 250px;
+  background: transparent;
+  margin: auto;
+  /* transform: perspective(800px) rotateZ(40deg); */
+  /* transition: all 1s linear; */
+  animation: aksh1 0.2s linear infinite;
+  background-image: linear-gradient(45deg, orange, blue, cyan, pink);
+  mix-blend-mode: screen;
+  border-radius: 50px;
+  background-size: cover;
+  /* mix-blend-mode: darken; */
+  /* transform-origin: left top; */
+  /* transform: perspective(800px) rotateZ(60deg) ; */
+  /* transform: perspective(800px) rotateY(40deg) translate3d(10px, 20px, 100px); */
+  /* transform: perspective(800px) scaleZ(4) rotateX(40deg) ; */
+  transform: perspective(800px) rotateX(-90deg);
+  /* transform: none; */
+  /* transform: matrix3d(1, 2, 0.5, 1, 1, 2, 0.5, 1, 1, 2, 0.5, 1, 1, 2, 0.5, 1); */
+}
+
+@keyframes aksh1 {
+  100% {
+    transform: perspective(800px) rotateX(900deg);
+  }
+}
+/* #box:hover {
+  transform: perspective(800px) scale3d(1, 1, 3) rotateY(180deg);
+} */
+
+/* #box1 {
+  width: 350px;
+  height: 250px;
+  background: transparent;
+  transform: perspective(800px) rotateY(0deg);
+  transition: all 1.5s linear;
+  animation: aksh1 3s linear infinite; 
+ background-image: var(--link);
+  background-size: cover;
+  background-position-x: right; 
+/* mix-blend-mode: darken; 
+/* transform-origin: right center; 
+/* } */
+
+/* #box:hover {
+  transform: rotateX(180deg);
+} */
+
+/* @keyframes aksh1 {
+  100% {
+    transform: perspective(800px) rotateY(360deg);
+  }
+} */

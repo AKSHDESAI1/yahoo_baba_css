@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Table </title>
+
+  <link rel="stylesheet" href="/46/index.css">
+</head>
+
+<body>
+
+  <h1> AKSH DESAI : CSS Table Properties </h1>
+
+
+  <table cellpadding="10px">
+
+    <caption> AKSH DESAI </caption>
+    <!-- <colgroup>
+      <col span="2" style="background: green;">
+      <col span="1" style="background: orange;">
+    </colgroup> -->
+    <!-- <thead> -->
+    <tr>
+      <th> FirstName </th>
+      <th> LastName </th>
+      <th> Savings </th>
+    </tr>
+    <!-- </thead> -->
+
+    <!-- <tbody> -->
+    <tr style="height: 50px;">
+      <td>Mohankfvfgfhfghfhfthfttkjvnkjvnkjnvkj</td>
+      <td>Kumar</td>
+      <td>$100</td>
+    </tr>
+
+    <tr>
+      <td>Salim</td>
+      <td>Khan</td>
+      <td>$150</td>
+    </tr>
+
+    <tr>
+      <td>Inder</td>
+      <td>Singh</td>
+      <td>$300</td>
+    </tr>
+
+    <tr>
+      <td>Peter</td>
+      <td>Brown</td>
+      <td>$250</td>
+    </tr>
+
+    <!-- </tbody> -->
+
+  </table>
+
+
+</body>
+
+<script>
+  let tdElement = document.querySelectorAll("td");
+  tdElement.forEach((e, index) => {
+    e.setAttribute("id", index + 1);
+  })
+
+  tdElement.forEach((e) => {
+    // let id = document.getElementById(e.id);
+    e.addEventListener("click", () => {
+      // alert(e.id);
+      e.innerHTML = "";
+    })
+  })
+</script>
+
+</html>

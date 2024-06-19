@@ -1,0 +1,29 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+#item {
+  flex-basis: 32%;
+  height: 200px;
+  border: 2px solid;
+
+  margin: 10px 0;
+  transition: all 500ms;
+}
+
+#container:has(#item:hover) :not(#item:hover) {
+  background-color: red;
+  filter: blur(10px);
+  border: none;
+}
+
+#item:hover {
+  background: purple;
+  border: none;
+  filter: brightness(150%);
+  border-radius: 10px;
+}

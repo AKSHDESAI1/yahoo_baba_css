@@ -1,0 +1,17 @@
+body {
+  padding: 30px;
+  margin: 0;
+}
+
+#parent {
+  border: 2px solid;
+  /* width: 1000px; */
+}
+
+.element {
+  background: pink;
+  /* width: min(50%, 400px); */
+  /* width: clamp(350px, 50%, 500px); */
+
+  font-size: clamp(16px, 5vw, 35px);
+}

@@ -1,0 +1,52 @@
+* {
+  border: 0px solid;
+}
+
+.nav-Item {
+  font-size: 15px;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 100vw;
+  /* height: 100vh; */
+}
+
+#nav,
+#left {
+  max-width: 100vw;
+  color: black;
+}
+
+#content {
+  flex-direction: column;
+  max-width: 100vw;
+  overflow-y: auto;
+  border: 2px dotted dodgerblue;
+}
+
+#left {
+  height: max-content;
+  overflow: visible;
+  border: 0;
+}
+
+#right {
+  display: block;
+  width: 100vw;
+  height: 20px;
+  border: 0;
+  display: none;
+}
+
+#right ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+#footer {
+  display: block;
+  /* margin-top: 50px; */
+  margin-right: 20px;
+}

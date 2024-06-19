@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    rgb(52, 47, 156),
+    rgb(47, 110, 131),
+    rgb(45, 32, 185)
+  );
+}
+
+ul {
+  background: linear-gradient(45deg, purple, cyan, blue, pink);
+  color: transparent;
+  -webkit-background-clip: text;
+  /* height: 100vh; */
+  mix-blend-mode: difference;
+  font-size: 20vw;
+}
+
+li:hover,
+li::selection {
+  color: brown;
+  mix-blend-mode: darken;
+}

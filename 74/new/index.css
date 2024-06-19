@@ -1,0 +1,13 @@
+h1 {
+  counter-reset: akshu;
+}
+
+h1::before {
+  counter-increment: akshu;
+  content: counter(akshu) ". ";
+}
+
+h2::before {
+  counter-increment: akshu;
+  content: counter(akshu) ". ";
+}

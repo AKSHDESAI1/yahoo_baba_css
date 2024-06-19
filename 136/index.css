@@ -1,0 +1,12 @@
+@import url("/136/print.css") print;
+
+h1,
+h2 {
+  color: brown;
+}
+
+/* @media print {
+    h1,h2 {
+        color: orange;
+    }
+} */

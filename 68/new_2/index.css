@@ -1,0 +1,21 @@
+#list li {
+  color: black;
+}
+
+#list > li {
+  color: red;
+}
+
+#box {
+  border: 2px solid;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+#box2 {
+  border: 2px solid red;
+}
+
+#box > p {
+  color: blue;
+}

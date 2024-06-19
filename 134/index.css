@@ -1,0 +1,41 @@
+* {
+  transition: all 2s;
+}
+
+#parent {
+  display: flex;
+  border: 1px solid;
+}
+
+#parent > div {
+  border: 1px solid;
+}
+
+@media (orientation: landscape) {
+  body {
+    background: pink;
+  }
+
+  #parent {
+    flex-direction: row;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background: orange;
+  }
+
+  #parent {
+    flex-direction: column;
+  }
+}
+
+div::first-letter {
+  font-size: 90px;
+  /* color: red; */
+}
+
+div::first-line {
+  color: orange;
+}

@@ -1,0 +1,44 @@
+div {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* div:has(h2) {
+  background: pink;
+} */
+
+/* div:has(h2, h3, h4, p) {
+  background: pink;
+} */
+
+/* div:has(> h3) {
+  background: red;
+  color: white;
+} */
+
+div:has(h2+h3) {
+    background-color: tomato;
+}
+
+/* h2:has(+h3) {
+    background-color: pink;
+} */
+
+/* div:not(:has(h2, h3, h4)) {
+  background-color: pink;
+} */
+
+/* div:has(h3) li {
+  background-color: red;
+  position: relative;
+} */
+
+/* div:has(ul) li:empty {
+    
+    background-color: pink !important;
+} */
+
+/* div:has(*:empty) {
+  color: red;
+} */

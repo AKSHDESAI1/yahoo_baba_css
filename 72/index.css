@@ -1,0 +1,13 @@
+p::before {
+  content: "Aksh ";
+  background: red;
+  color: white;
+
+  display: block;
+}
+
+p:hover::after {
+  content: "rudra";
+  background-color: green;
+  color: white;
+}

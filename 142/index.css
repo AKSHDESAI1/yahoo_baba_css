@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background: grey;
+    color: white;
+  }
+}
+
+#menu {
+  & li {
+    background: pink;
+
+    & a {
+      color: red;
+      text-decoration: none;
+      transition: all 0.5s;
+
+      &:hover {
+        background-color: green;
+        color: white;
+      }
+    }
+  }
+}

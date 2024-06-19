@@ -1,0 +1,14 @@
+@import url("/151/new2/new.css") layer(one);
+@layer two, three, one;
+
+@layer two {
+  .first {
+    color: green;
+  }
+}
+
+@layer three {
+  #second {
+    color: blue;
+  }
+}

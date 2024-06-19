@@ -1,0 +1,15 @@
+#parent {
+  border: 2px solid;
+    margin: 50px 20px;
+  width: 600px;
+
+  display: flow-root;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background: red;
+
+  float: left;
+}

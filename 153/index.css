@@ -1,0 +1,9 @@
+#parent {
+  h2:nth-of-type(2) {
+    color: tomato;
+  }
+
+  :nth-child(even of :not(.test)) {
+    background: green;
+  }
+}

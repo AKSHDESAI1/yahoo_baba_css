@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 300vh;
+}
+
+.parent {
+  position: fixed;
+
+  border: 3px solid;
+  background: lightyellow;
+  color: red;
+  width: 300px;
+  height: 300px;
+
+  align-content: start;
+}
+
+.child {
+  overflow-y: scroll;
+  background: lightblue;
+
+  /* padding: 20px; */
+  height: 250px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+  align-content: end;
+  animation: aksh linear;
+  animation-timeline: scroll(block self);
+}
+
+@keyframes aksh {
+  to {
+    background-color: black;
+    color: white;
+  }
+}

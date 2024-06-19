@@ -1,0 +1,38 @@
+@import "./a1.css";
+
+body {
+  /* background-color: red; */
+}
+
+input::file-selector-button {
+  background: yellow;
+  padding: 10px;
+  border: 0px;
+  color: green;
+  font-size: 25px;
+}
+
+@media (prefers-color-scheme: light) {
+  div::after {
+    content: "WINDOWS 11 : LIGHT MODE";
+    color: black;
+    font-size: 45px;
+    margin: 50px;
+    font-weight: bold;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: grey;
+    color: white;
+  }
+
+  div::after {
+    content: "WINDOWS 11 : DARK MODE";
+    color: white;
+    font-size: 35px;
+    margin: 50px;
+    font-weight: bold;
+  }
+}

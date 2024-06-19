@@ -1,0 +1,18 @@
+body {
+  counter-reset: my-counter;
+}
+
+h1 {
+  color: green;
+}
+
+h2::before {
+  content: "Chapter " counter(my-counter, lower-roman) " : ";
+  counter-increment: my-counter;
+  color: crimson;
+  padding: 4px;
+}
+
+li {
+  list-style-type: lower-alpha;
+}

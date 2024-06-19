@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background: #eee;
+  width: 700px;
+  height: 800px;
+  margin: 70px 0 0 50px;
+
+  display: grid;
+  /* grid-template-columns: 40% auto 250px; */
+  grid-template-columns: repeat(2, 100px) 1fr;
+  grid-template-rows: repeat(2, 1fr);
+
+  grid-gap: 10px 20px;
+}
+
+.item1 {
+  background: orangered;
+}
+.item2 {
+  background: yellowgreen;
+}
+.item3 {
+  background: slateblue;
+}
+.item4 {
+  background: hotpink;
+}
+.item5 {
+  background: royalblue;
+}
+.item6 {
+  background: goldenrod;
+}

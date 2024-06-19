@@ -1,0 +1,84 @@
+input:focus {
+  outline: 1px solid cyan;
+}
+
+input {
+  /* accent-color: pink; */
+}
+
+input:checked + label {
+  /* background-color: red; */
+}
+
+input:enabled {
+  /* border: 2px solid #000; */
+
+  /* box-shadow: 0 0 0 3px brown; */
+}
+
+input:optional {
+  /* box-shadow: 0 0 0 3px brown; */
+}
+
+input:disabled {
+  box-shadow: 0 0 0 3px brown;
+}
+input:required {
+  /* box-shadow: 0 0 0 3px pink; */
+}
+
+input:in-range {
+  border: 2px solid green;
+}
+
+input:out-of-range {
+  border: 2px solid red;
+}
+
+input:in-range ~ p {
+  display: none;
+}
+
+input:out-of-range ~ p {
+  display: block;
+  border: 1px solid green;
+}
+
+.ageValidate {
+  color: red;
+  display: none;
+}
+
+input:read-only {
+  border: 10px solid yellow;
+}
+
+input:read-write {
+  /* border: 3px solid green; */
+
+  /* box-shadow: 0 0 0 10px pink; */
+}
+
+input:invalid {
+  border: 10px solid red;
+  box-shadow: 0 0 0 5px green;
+}
+
+input:valid {
+  border: 10px solid blue;
+  box-shadow: 0 0 0 5px pink;
+}
+
+input:default,
+option:default {
+  border: 5px solid yellow;
+  box-shadow: 0 0 0 5px yellow;
+
+  color: green;
+}
+
+:root {
+  border: 10px solid green;
+  color: white;
+  background-color: red;
+}

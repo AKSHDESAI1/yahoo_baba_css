@@ -1,0 +1,23 @@
+#list > li {
+  display: inline;
+}
+
+span {
+  border: 2px solid green;
+  /* width: 100px; */
+  /* display: inline-block; */
+  margin: 50px 10px;
+  width: 100px;
+  /* height: 10px; */
+  display: list-item;
+  list-style-position: inside;
+}
+
+a {
+  width: 200px;
+  border: 2px solid red;
+  color: blue;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}

@@ -1,0 +1,51 @@
+body {
+  background-color: cyan;
+}
+
+form {
+  background: white;
+  width: max-content;
+  padding: 20px;
+}
+
+form header {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+form label {
+  margin-right: 15px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: grey;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form:focus-within {
+  background: rgb(237, 130, 130);
+}
+
+input {
+  accent-color: green;
+}
+
+select {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+select option {
+  padding: 10px;
+}
+
+div:focus-within label:nth-child(1) {
+  background: lime;
+}
